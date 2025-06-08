@@ -3,7 +3,7 @@ const playlists = {
     {
       title: "vikram",
       artist: "Artist 1",
-      file: "vikram.mp3",
+      file: "songs/vikram.mp3",
       cover: "https://wallpaperaccess.com/full/8412315.jpg",
       lyrics: `[00:00.000]
 [00:20.50]Naayagan meedum vara Ettu thikkum bayamdhanae
