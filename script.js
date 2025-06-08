@@ -3,28 +3,26 @@ const playlists = {
     {
       title: "vikram",
       artist: "Artist 1",
-      file: "vikram.mp3",
+      file: "songs/vikram.mp3",
       cover: "https://wallpaperaccess.com/full/8412315.jpg",
       lyrics: `[00:00.000]
-[00:20.50]Naayagan meedum vara Ettu thikkum bayamdhanae
-[00:31.50]Ratchasan raman yena Kanavai kondavan ivan dhanae
-[00:43.50]Ivan varalaarum Oru yugam paadum
-[00:48.50]Ivan kalai dhaagam Por vinaiyagum
-[00:54.50]Ivan adaiyaalam Adhu kadalagum
-[00:59.50]Pala porvendra Oru peyar aagum
-[01:07.090]Aarambikalangala
+[00:20.50]Kaalame kampinchina Marala vachchenu nayakudu
+[00:32.50]Okade iddaru kadaa Ramudu mariyu rakshasudu
+[00:43.50]Taramulu paade charitam veedu
+[00:48.50]Kathanamu pogide kathanam veedu
+[00:54.50]Palu gaayaala deham veedu Ranageyanga gelupautaadu
 [01:08.50]Thakita thak dhim Thak dhim thak dhim Thakita thak dhim
 [01:12.50]Thak dhim thak dhim Thakita thak dhim Thak dhim thak dhim
 [01:18.50]Thakita thak dhim Thak dhim thak dhim..hahahaha..
 [01:22.50]Vikram.. vikram Vikram ..vikram.. Vikram..vikram.. Vikram..vikram..
-[02:07.50]Naayagan meedum vara Ettu thikkum bayamdhanae
-[02:19.210]Ratchasan raman yena Kanavai kondavan ivan dhanae
-[02:30.030]Vizhundhal idiyai Ezhundhal malaiyaai Thalaivan oruvan Perum por kalaingan
-[02:41.360]Pala vaal thuzhaithum Ivan vizhundhadhillai Ulagey edhirthum Ivan adangavillai
-[02:47.200]Idhu pol oruvan Ingu vaazhndhadillai Avanae muyandrum Ivan maindhadhillai
-[02:54.370]Aarambikalangala
+[02:07.50]Kaalame kampinchina
+[02:11.50]Marala vachchenu nayakudu
+[02:19.50]Okade iddaru kada 
+[02:24.50]Ramudu mariyu rakshasudu
+[02:30.50]Itado mananam yedalo jwalana
+[02:35.50]Gatame shishira batuke samarm Shikharam tanai niliche pantam Poraadatame tana siddhantam Longadu veedu, yamudiki saitam Ika modaleddama
 [02:55.50]Thakita thak dhim Thak dhim thak dhim Thakita thak dhim
-[03:00.240]Thak dhim thak dhim Thakita thak dhim Thak dhim thak dhim
+[03:00.50]Thak dhim thak dhim Thakita thak dhim Thak dhim thak dhim
 [03:05.50]Thakita thak dhim Thak dhim thak dhim..hahahaha..
 [03:09.50]Vikram.. vikram Vikram ..vikram.. Vikram..vikram.. Vikram..vikram..`
     },
