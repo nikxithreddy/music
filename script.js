@@ -5,7 +5,7 @@ const playlists = {
     
       title: "Ney Veyrey",
       artist: "Karthik",
-      file: "songs/Ney Veyrey.mp3",
+      file: "Ney Veyrey.mp3",
       cover: "https://www.naasongs.to/wp-content/uploads/2023/10/Animal-2023-Ney-Veyrey.jpg",
       lyrics: `[00:00.00]
     [00:01.00]O.. Oh…
@@ -89,7 +89,7 @@ const playlists = {
       {
       title: "Vikram Title song",
       artist: "Anirudh",
-      file: "songs/vikram.mp3",
+      file: "vikram.mp3",
       cover: "https://wallpaperaccess.com/full/8412315.jpg",
       lyrics: `[00:00.000]
 [00:20.50]Kaalame kampinchina Marala vachchenu nayakudu
