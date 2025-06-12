@@ -1,9 +1,95 @@
 const playlists = {
-  "Bollywood Hits": [
+  "LOVE": [
     {
-      title: "vikram",
-      artist: "Artist 1",
-      file: "vikram.mp3",
+       
+    
+      title: "Ney Veyrey",
+      artist: "Karthik",
+      file: "songs/Ney Veyrey.mp3",
+      cover: "https://www.naasongs.to/wp-content/uploads/2023/10/Animal-2023-Ney-Veyrey.jpg",
+      lyrics: `[00:00.00]
+    [00:01.00]O.. Oh…
+    [00:13.50]Naa dehamantha
+    [00:16.00]Nee snehamtho nindindhi choode nesthama
+    [00:25.00]O… naa mounamantha
+    [00:28.00]Nee dyanamlo munigindi choode pranama
+    [00:35.50]Naa chinnanaati gunde
+    [00:37.50]Nee pere vinipisthundhe
+    [00:41.50]Naa kanna ninnu mundhe
+    [00:43.50]Chadivesi itu cherukundhe
+    [00:48.00]Ne verey nuvu verey kadu nesthama
+    [00:54.00]Nee theere poodhaare naku pranama
+    [01:00.00]Ne verey nuvu verey kadu nesthama
+    [01:05.05]Nee theere poodhaare naku pranama
+    [01:12.05]O.. Oh…
+
+    [01:40.00]Nee padham sprushinchake
+    [01:43.50]Ne thaakane ne pedhavini
+    [01:49.50]Nee dweshanni munduga kalisi
+    [01:55.00]Malli choostha nee premane
+    [02:02.00]Kasirinidha kanikarama
+    [02:06.50]Alakalama atunaa anuraagama
+    [02:11.50]Shashiraala jaadala eduraina
+    [02:15.00]Marala raadha marukshanana
+    [02:19.50]Vaasanthame nee chedu gnapakale
+    [02:24.50]Gaayaluga marchukunta
+    [02:28.00]Nuvu nuchhunna chote
+    [02:30.00]Nanu nene shikshinchukunta
+    [02:34.50]Ne naavai nuvu thovai kaa nesthama
+    [02:40.00]Ye theeram ika dhooram kadu pranama
+    [02:47.00]Ne verey nuvu verey kadu nesthama
+    [02:52.50]Nee theere poodhaare naku pranama
+    [02:59.00]O.. Oh… oh.. oh…
+
+
+
+    [03:24.50]Nenemo endanaithe
+    [03:26.50]Nuvvemo naa vaana ville
+    [03:30.00]Ee janta unna chote
+    [03:32.00]Velagalala vaana ville
+    [03:36.00]Ne raathrai nuvu pagalaithe nesthama
+    [03:42.05]Prathi roju ika poorthaina pranama
+    [03:48.00]Ne verey nuvu verey kadu nesthama
+    [03:54.05]Nee theere poodhaare naku pranama
+    [04:08.00]Ne verey nuvu verey kadu nesthama
+    [04:21.00]Nee theere poodhaare naku pranama`
+    },
+   { title: "Blinding Lights",
+      artist: "The Weeknd",
+      file: "songs/blinding.mp3",
+      cover: "https://i.imgur.com/2f3ddYm.jpg",
+      lyrics: `[00:00.00]
+[00:05.00]I been tryna call
+[00:10.00]I been on my own for long enough`
+    }
+  ],
+ 
+   "SAD": [
+    {
+      title: "Blinding Lights",
+      artist: "The Weeknd",
+      file: "songs/blinding.mp3",
+      cover: "https://i.imgur.com/2f3ddYm.jpg",
+      lyrics: `[00:00.00]
+[00:05.00]I been tryna call
+[00:10.00]I been on my own for long enough`
+    },
+    {
+      title: "Shape of You",
+      artist: "Ed Sheeran",
+      file: "songs/shape.mp3",
+      cover: "https://i.imgur.com/UpwQ3zE.jpg",
+      lyrics: `[00:00.00]
+[00:08.00]The club isn't the best place to find a lover
+[00:15.00]So the bar is where I go`
+    }
+  ],
+
+      "BASS": [
+      {
+      title: "Vikram Title song",
+      artist: "Anirudh",
+      file: "songs/vikram.mp3",
       cover: "https://wallpaperaccess.com/full/8412315.jpg",
       lyrics: `[00:00.000]
 [00:20.50]Kaalame kampinchina Marala vachchenu nayakudu
@@ -27,256 +113,174 @@ const playlists = {
 [03:09.50]Vikram.. vikram Vikram ..vikram.. Vikram..vikram.. Vikram..vikram..`
     },
     {
-      title: "Song 2",
-      artist: "Artist 2",
-      file: "songs/song2.mp3",
-      cover: "https://picsum.photos/300?random=2",
-      lyrics: `
-[00:00.00] Intro music for song 2
-[00:03.00] Welcome to this song lyrics
-[00:08.00] Enjoy every line carefully
-[00:14.00] Singing along is fun`
-    }
-  ],
-  "English Pop": [
-    {
-      title: "Song 3",
-      artist: "Artist 3",
-      file: "songs/song3.mp3",
-      cover: "https://picsum.photos/300?random=3",
-      lyrics: `
-[00:00.00] Intro English song
-[00:04.00] Here is line number one
-[00:09.00] Next line comes easy
-[00:13.00] Last line for you`
-    },
-    {
-      title: "Song 4",
-      artist: "Artist 4",
-      file: "songs/song4.mp3",
-      cover: "https://picsum.photos/300?random=4",
-      lyrics: `
-[00:00.00] Song 4 intro
-[00:06.00] Some cool lyric line
-[00:11.00] Another cool lyric
-[00:16.00] Final lyric line`
+      title: "Shape of You",
+      artist: "Ed Sheeran",
+      file: "songs/shape.mp3",
+      cover: "https://i.imgur.com/UpwQ3zE.jpg",
+      lyrics: `[00:00.00]
+[00:08.00]The club isn't the best place to find a lover
+[00:15.00]So the bar is where I go`
     }
   ]
+
+
 };
 
-const audio = document.getElementById('audioPlayer');
-const playPauseBtn = document.getElementById('playPauseBtn');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-const progressBar = document.getElementById('progressBar');
-const currentTimeEl = document.getElementById('currentTime');
-const durationEl = document.getElementById('duration');
-const lyricsDisplay = document.getElementById('lyricsDisplay');
-const songTitle = document.getElementById('songTitle');
-const artistName = document.getElementById('artistName');
-const coverImage = document.getElementById('coverImage');
-const playlistEl = document.getElementById('playlist');
-const playlistSelect = document.getElementById('playlistSelect');
-const coverArtDiv = document.querySelector('.cover-art');
-const playPauseSymbol = playPauseBtn.textContent;
+const audio = document.getElementById("audioPlayer");
+const playBtn = document.getElementById("playPauseBtn");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+const cover = document.getElementById("coverImage");
+const title = document.getElementById("songTitle");
+const artist = document.getElementById("artistName");
+const lyricsDisplay = document.getElementById("lyricsDisplay");
+const progressBar = document.getElementById("progressBar");
+const currentTime = document.getElementById("currentTime");
+const duration = document.getElementById("duration");
+const playlistEl = document.getElementById("playlist");
+const playlistSelect = document.getElementById("playlistSelect");
 
-let currentPlaylistName = null;
 let currentPlaylist = [];
-let currentSongIndex = 0;
+let currentPlaylistName = "";
+let currentIndex = 0;
+let lyricsLines = [];
 let isPlaying = false;
 
-let lyricsLines = []; // Array of {time: seconds, text: string}
-let currentLyricIndex = -1;
-
-// Parse LRC style lyrics into timed array
-function parseLyrics(lrcText) {
-  const lines = lrcText.split('\n');
-  const result = [];
-  const timeRegex = /\[(\d{2}):(\d{2}\.\d{2})\]/;
-
-  for (let line of lines) {
-    const match = line.match(timeRegex);
-    if (match) {
-      const mins = parseInt(match[1]);
-      const secs = parseFloat(match[2]);
-      const time = mins * 60 + secs;
-      const text = line.replace(timeRegex, '').trim();
-      result.push({ time, text });
-    }
-  }
-  return result;
+function parseLyrics(lrc) {
+  return lrc.split("\n").map(line => {
+    const match = line.match(/\[(\d+):(\d+\.\d+)\](.*)/);
+    if (!match) return null;
+    const time = parseInt(match[1]) * 60 + parseFloat(match[2]);
+    return { time, text: match[3].trim() };
+  }).filter(Boolean);
 }
 
 function loadPlaylists() {
+  playlistSelect.innerHTML = "";
   for (let name in playlists) {
-    const option = document.createElement('option');
-    option.value = name;
-    option.textContent = name;
-    playlistSelect.appendChild(option);
+    const opt = document.createElement("option");
+    opt.value = name;
+    opt.textContent = name;
+    playlistSelect.appendChild(opt);
   }
 }
 
 function loadPlaylist(name) {
   currentPlaylistName = name;
   currentPlaylist = playlists[name];
-  currentSongIndex = 0;
-  loadSong(currentSongIndex);
+  currentIndex = 0;
+  loadSong(currentIndex);
   updatePlaylistUI();
 }
 
-function loadSong(index) {
-  const song = currentPlaylist[index];
-  if (!song) return;
-
+function loadSong(i) {
+  const song = currentPlaylist[i];
   audio.src = song.file;
-  audio.load();
-  songTitle.textContent = song.title;
-  artistName.textContent = song.artist;
-  coverImage.src = song.cover;
-
-  // Parse lyrics from embedded text
+  cover.src = song.cover;
+  title.textContent = song.title;
+  artist.textContent = song.artist;
   lyricsLines = parseLyrics(song.lyrics);
-  currentLyricIndex = -1;
   renderLyrics();
-
-  // Reset progress bar and times
   progressBar.value = 0;
-  currentTimeEl.textContent = "0:00";
-  durationEl.textContent = "0:00";
-
+  currentTime.textContent = "0:00";
+  duration.textContent = "0:00";
   updatePlaylistUI();
-
-  // Remove spinning animation initially
-  coverArtDiv.classList.remove('playing');
 }
 
 function renderLyrics() {
   lyricsDisplay.innerHTML = '';
-  lyricsLines.forEach((line, index) => {
+  lyricsLines.forEach((line, idx) => {
     const p = document.createElement('p');
     p.textContent = line.text;
-    p.setAttribute('data-index', index);
+    p.dataset.index = idx;
     lyricsDisplay.appendChild(p);
   });
 }
-console.log('Time:', audio.currentTime.toFixed(2), '/', audio.duration?.toFixed(2));
 
-function updateLyricsHighlight(currentTime) {
-  if (lyricsLines.length === 0) return;
+function highlightLyric(index) {
+  document.querySelectorAll('#lyricsDisplay p').forEach(p => p.classList.remove('active'));
+  const current = document.querySelector(`#lyricsDisplay p[data-index="${index}"]`);
+  if (current) {
+    current.classList.add('active');
+    current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
 
-  // Find the current lyric index for the current time
+function updateLyrics(time) {
   for (let i = lyricsLines.length - 1; i >= 0; i--) {
-    if (currentTime >= lyricsLines[i].time) {
-      if (currentLyricIndex !== i) {
-        currentLyricIndex = i;
-        highlightLyric(i);
-      }
+    if (time >= lyricsLines[i].time) {
+      highlightLyric(i);
       break;
     }
   }
 }
 
-function highlightLyric(index) {
-  const paragraphs = lyricsDisplay.querySelectorAll('p');
-  paragraphs.forEach(p => p.classList.remove('active'));
-  const activeP = lyricsDisplay.querySelector(`p[data-index="${index}"]`);
-  if (activeP) {
-    activeP.classList.add('active');
-    // Auto scroll lyrics container
-    const container = lyricsDisplay.parentElement;
-    const offset = activeP.offsetTop - container.offsetTop - container.clientHeight / 2 + activeP.clientHeight / 2;
-    container.scrollTop = offset > 0 ? offset : 0;
-  }
-}
-
 function playSong() {
-    audio.playbackRate = 1.0;
   audio.play();
   isPlaying = true;
-  playPauseBtn.textContent = '❚❚';
-  coverArtDiv.classList.add('playing');
+  playBtn.textContent = '❚❚';
 }
 
 function pauseSong() {
   audio.pause();
   isPlaying = false;
-  playPauseBtn.textContent = '▶';
-  coverArtDiv.classList.remove('playing');
+  playBtn.textContent = '▶';
 }
 
-playPauseBtn.addEventListener('click', () => {
-  if (isPlaying) pauseSong();
-  else playSong();
-});
+function formatTime(t) {
+  const m = Math.floor(t / 60);
+  const s = Math.floor(t % 60);
+  return `${m}:${s < 10 ? '0' : ''}${s}`;
+}
 
-prevBtn.addEventListener('click', () => {
-  currentSongIndex = (currentSongIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
-  loadSong(currentSongIndex);
+playBtn.onclick = () => isPlaying ? pauseSong() : playSong();
+
+prevBtn.onclick = () => {
+  currentIndex = (currentIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+  loadSong(currentIndex);
   playSong();
-});
+};
 
-nextBtn.addEventListener('click', () => {
-  currentSongIndex = (currentSongIndex + 1) % currentPlaylist.length;
-  loadSong(currentSongIndex);
+nextBtn.onclick = () => {
+  currentIndex = (currentIndex + 1) % currentPlaylist.length;
+  loadSong(currentIndex);
   playSong();
-});
+};
 
-audio.addEventListener('loadedmetadata', () => {
-  if (isFinite(audio.duration)) {
-    durationEl.textContent = formatTime(audio.duration);
+audio.ontimeupdate = () => {
+  if (!isNaN(audio.duration)) {
+    progressBar.value = (audio.currentTime / audio.duration) * 100;
+    currentTime.textContent = formatTime(audio.currentTime);
+    duration.textContent = formatTime(audio.duration);
+    updateLyrics(audio.currentTime);
   }
-});
+};
 
+progressBar.oninput = () => {
+  audio.currentTime = (progressBar.value / 100) * audio.duration;
+};
 
-audio.addEventListener('timeupdate', () => {
-  if (audio.duration) {
-    const progressPercent = (audio.currentTime / audio.duration) * 100;
-    progressBar.value = progressPercent;
+audio.onended = () => nextBtn.click();
 
-    currentTimeEl.textContent = formatTime(audio.currentTime);
-    durationEl.textContent = formatTime(audio.duration);
-
-    updateLyricsHighlight(audio.currentTime);
-  }
-});
-
-progressBar.addEventListener('mouseup', () => {
-  if (audio.duration) {
-    audio.currentTime = (progressBar.value / 100) * audio.duration;
-  }
-});
-
-audio.addEventListener('ended', () => {
-  nextBtn.click();
-});
-
-playlistSelect.addEventListener('change', () => {
+playlistSelect.onchange = () => {
   loadPlaylist(playlistSelect.value);
-});
+};
 
 function updatePlaylistUI() {
-  playlistEl.innerHTML = "";
+  playlistEl.innerHTML = '';
   currentPlaylist.forEach((song, idx) => {
     const li = document.createElement('li');
-    li.textContent = `${song.title} - ${song.artist}`;
-    if (idx === currentSongIndex) {
-      li.classList.add('active');
-    }
-    li.addEventListener('click', () => {
-      currentSongIndex = idx;
+    li.textContent = `${song.title} – ${song.artist}`;
+    if (idx === currentIndex) li.classList.add('active');
+    li.onclick = () => {
+      currentIndex = idx;
       loadSong(idx);
       playSong();
-    });
+    };
     playlistEl.appendChild(li);
   });
 }
 
-function formatTime(seconds) {
-  const mins = Math.floor(seconds / 60) || 0;
-  const secs = Math.floor(seconds % 60) || 0;
-  return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
-}
-
-// Init
+// Initialize everything
 loadPlaylists();
 loadPlaylist(Object.keys(playlists)[0]);
