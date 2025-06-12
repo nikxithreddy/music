@@ -103,6 +103,69 @@ const playlists = {
 
 [03:43.00]Prema velluva prema uppena prema sandadi…
 [03:53.00]Prema velluva prema uppena prema sandadi…`
+    },
+     {
+      title: "Adhento Gaani Vunnapaatuga",
+      artist: "Anirudh Ravichander",
+      file: "Adhento Gaani Vunnapaatuga.mp3",
+      cover: "https://tse4.mm.bing.net/th/id/OIP.m43dEeVXxxfBwyP9LmtplQHaKX?rs=1&pid=ImgDetMain",
+      lyrics: `[00:00.00]
+[00:25.50]Adento gaani unnapaatugaa
+[00:28.00]Ammaayi mukku meeda neruga
+[00:31.50]Tarala Naati Kopamantha
+[00:34.00]Aaaaaaa Erupegaa
+[00:37.00]Naakantu Okkarainaa lerugaa
+[00:40.00]Nan nantukunna taarava nuvaa
+[00:44.00]Naakunna chinni lokamantha
+[00:46.00]Neeeee Pilupegaa
+
+[00:50.00]Teri paara Chooda saage doorame
+[00:56.00]Edi edi chere chotane
+[01:01.00]Saage kshanamulaagene
+[01:04.00]Venake Manani choosene
+[01:07.00]Chelimi cheyamantu korene
+[01:10.00]Ooooo
+
+[01:13.00]Vegamadigi choosene 
+[01:16.00]Alupe manaki ledane
+[01:19.00]Velugulaina velisipoyene
+[01:22.00]Ooooo
+
+
+
+[02:01.00]Maaaa Jodu kaaga
+[02:04.00]Vedukegaa Vekuveppudo theleedugaa
+[02:07.00]Aaaaa Chadamaama
+[02:10.00]Mabbulo daagipodaa
+[02:13.00]Eh vela pala
+[02:16.00]Meku leda antu vaddane Antunnada
+[02:19.00]Aaaaaa Siggulonaa
+[02:22.00]Arthame Maaripodaa
+
+
+ 
+[02:28.00]Eri kori chare saage kaugile
+[02:32.00]Edi edi chere chotane
+[02:36.00]Kaugiliruku Aayene
+[02:42.00]Thagile pasidi praaname
+[02:45.00]Kanulalone Navvupoosene
+[02:48.00]Ooooo
+[02:51.00]Lokamichata aagene
+[02:54.00]Mugguro prapanchamaayene
+[02:57.00]Merupu murupu thone kalisene
+[03:00.00]Oooo
+
+[03:12.00]Adento gaani unnapaatugaa
+
+[03:15.00]Kaalametula maarene
+[03:18.00]Dorike varaku aagade
+[03:21.00]Okaru okaru gaane vidichene
+
+[03:24.00]Adento gaani unnapaatugaa
+
+[03:27.00]Doorametula doorene
+[03:30.00]Manake thelise lopale
+[03:33.00]Samayame maari poyene`
     }
   ],
  
