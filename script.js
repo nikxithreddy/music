@@ -56,7 +56,7 @@ const playlists = {
     },
    { title: "Prema velluva",
       artist: "Sid Sriram, Nutana Mohan",
-      file: "songs/Prema Velluva.mp3",
+      file: "Prema Velluva.mp3",
       cover: "https://m.media-amazon.com/images/I/41lwKetUrZL.jpg",
       lyrics: `[00:00.00]
 [00:02.50]Dooke naapai… ivaale… prema velluva…
