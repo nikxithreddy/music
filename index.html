@@ -2,56 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gaana Style Music Player with Synced Lyrics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NR Music Player</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="background"></div>
 
-<div class="music-player">
+  <div class="player-container">
+    <header class="header">
+      <h1>🎵 NR Music Player</h1>
+      <select id="playlistSelect"></select>
+    </header>
 
-  <div class="cover-art">
-    <img id="coverImage" src="https://picsum.photos/300?random=1" alt="Cover Art" />
-    <div class="waveform"></div>
+    <div class="now-playing">
+      <img id="coverImage" src="" alt="Album Art" />
+      <div class="song-info">
+        <h2 id="songTitle">Title</h2>
+        <p id="artistName">Artist</p>
+      </div>
+    </div>
+
+    <div class="waveform-bars">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="controls">
+      <button id="prevBtn">⏮</button>
+      <button id="playPauseBtn">▶</button>
+      <button id="nextBtn">⏭</button>
+    </div>
+
+    <div class="progress">
+      <span id="currentTime">0:00</span>
+      <input type="range" id="progressBar" value="0" />
+      <span id="duration">0:00</span>
+    </div>
+
+    <div class="lyrics" id="lyricsDisplay"></div>
+
+    <ul id="playlist" class="playlist"></ul>
+
+    <audio id="audioPlayer"></audio>
   </div>
 
-  <div class="song-info">
-    <h2 id="songTitle">Song Title</h2>
-    <h3 id="artistName">Artist Name</h3>
-  </div>
-
-  <div class="controls">
-    <button id="prevBtn" title="Previous">&#9664;&#9664;</button>
-    <button id="playPauseBtn" title="Play/Pause">&#9654;</button>
-    <button id="nextBtn" title="Next">&#9654;&#9654;</button>
-  </div>
-
-  <input type="range" id="progressBar" min="0" max="100" value="0" />
-
-  <div class="time-info">
-    <span id="currentTime">0:00</span>
-    <span id="duration">0:00</span>
-  </div>
-
-  <div class="lyrics-container">
-    <h3>Lyrics</h3>
-    <div id="lyricsDisplay" class="lyrics-display"></div>
-  </div>
-
-  <div class="playlist-selector">
-    <label for="playlistSelect">Select Playlist:</label>
-    <select id="playlistSelect"></select>
-  </div>
-
-  <div class="playlist-container">
-    <h3>Playlist Songs</h3>
-    <ul id="playlist"></ul>
-  </div>
-
-  <audio id="audioPlayer"></audio>
-</div>
-
-<script src="script.js"></script>
-
+  <script src="scrript.js"></script>
 </body>
 </html>
