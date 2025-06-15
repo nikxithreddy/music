@@ -166,19 +166,409 @@ const playlists = {
 [03:27.00]Doorametula doorene
 [03:30.00]Manake thelise lopale
 [03:33.00]Samayame maari poyene`
+    },
+    {
+      title: "Nijame Ne Chebutunna",
+      artist: "sid sriram",
+      file: "Nijame Ne Chebutunna.mp3",
+      cover: "https://i.scdn.co/image/ab67616d0000b2731e5af7c5265c7ce91982b418",
+      lyrics: `[00:00.00]
+    [00:35.00]Nijame ne chebuthunna
+    [00:38.00]Jaane jaana
+    [00:40.00]Ninne ne premisthunna
+    [00:43.00]Nijame ne chebuthunna
+    [00:45.00]Yedhemainaa
+    [00:47.00]Naa pranam needhantunna
+
+    [00:50.50]Vellake vadhililellake
+    [00:54.00]Naa gundeni dhochesilaa
+    [00:58.00]Challake vedha challake
+    [01:02.00]Naa chuttu rangulnilaa
+
+    [01:33.50]Vennela theluse
+    [01:35.50]Naaku varsham theluse
+    [01:37.50]Ninu kalisaake
+    [01:39.00]Vennela varsham theluse
+
+    [01:42.00]Mounam theluse
+    [01:43.00]Naaku maata theluse
+    [01:45.00]Mounamlo dhaagunde
+    [01:47.00]Maatalu theluse
+
+    [01:49.00]Kannulatho choosedhi konchame
+    [01:52.00]Gundello lothe kanipinchene
+    [1:56.00]Paipaina roopaalu kaadhule
+    [2:00.00]Lolopali preme choodaalile
+
+    [02:03.00]Nijame ne chebuthunna
+    [02:05.00]Jaane jaana
+    [02:07.00]Ninne ne premisthunna
+    [02:11.00]Nijame ne chebuthunna
+    [02:12.00]Yedhemainaa
+    [02:14.00]Naa pranam needhantunna
+    
+    [02:49.00]pedhavulathoti piliche pilupula kanna
+    [02:52.00]manasara o saige chalantunna
+    [02:56.00]adugula thoti dhoram kolichekanna
+    [03:00.00]dhorane gurthinchani payanam kana
+    [03:04.00]needalle vasthane nee jethai
+    [03:07.00]thodalle vuntane nee khadhai
+    [03:11.00]o enupa palkanti gunde pi
+    [03:14.00]kavitalni rasavu devathai 
+    
+    [03:18.00]Nijame ne chebuthunna
+    [03:20.00]Jaane jaana
+    [03:22.00]Ninne ne premisthunna
+    [03:25.00]Nijame ne chebuthunna
+    [03:27.00]Yedhemainaa
+    [03:29.00]Naa pranam needhantunna`
+    },
+     {
+      title: "Manasu Maree",
+      artist: "amit trivedi",
+      file: "Manasu Maree.mp3",
+      cover: "https://s.mxmcdn.net/images-storage/albums5/5/8/7/8/8/8/50888785_350_350.jpg",
+      lyrics: `[00:00.00]
+[00:24.00]Manasu mari mattuga tugipothunnade
+[00:28.50]Emo ee vela
+[00:32.00]Vayasu mari vintaga vistubotunnade
+[00:36.00]Neede ee lil
+[00:40.00]Antaga kavvistaven gilli
+[00:44.00]Anduke bandhinche nannalli
+[00:47.00]Kiladi komali gulebakavali
+[00:55.00]Sukhaal javali vinali kougili
+[01:04.00]Manasu mari mattuga tugipothunnade
+[01:08.00]Emo ee vela
+[01:12.00]Vayasu mari vintaga vistubotunnade
+[01:16.00]Neede ee lil
+[01:42.00]Ho' adugulo aduguvai ila ra naatho nityam varanana
+[01:49.50]Ha' batukulo batukunai nivedista naa sarva jahapana
+[01:58.00]Poolnav galithov halohileso
+[02:05.00]Ho' cheraniva cheyaniva sevaleveo
+[02:14.00]Oh' manasu mari mattuga tugipothunnade
+[02:18.00]Emo ee vela
+[02:22.00]Ho' vayasu mari vintaga vistubotunnade
+[02:26.00]Neede ee lil
+[02:52.00]Manasulo allaye rahasyaleo cheppe kshanam idi
+[03:00.00]Manuto modalye marojanmannai putte varamidi
+[03:08.00]Neelo uncha naa prananni choosi polchuko
+[03:15.00]Ho' naalo pencha nee kalalanni ugani uyallo
+[03:24.00]Manasu mari mattuga tugipothunnade
+[03:28.00]Emo ee vela
+[03:32.00]Ho' vayasu mari vintaga vistubotunnade
+[03:36.00]Neede ee lil
+[03:40.00]Antaga kavvistaven gilli
+[03:44.00]Anduke bandhinche nannalli
+[03:47.00]Kiladi komali gulebakavali
+[03:55.00]Sukhaal javali vinali kougili`
+    },
+     {
+      title: "I Wanna Fly",
+      artist: "lv revanth,sanjith hegde",
+      file: "I Wanna Fly.mp3",
+      cover: "https://lyricsraag.com/wp-content/uploads/2019/08/Krishnarjuna-Yudham-songs-lyrics-translations.jpg",
+      lyrics: `[00:00.00]
+[00:11.00]Naa.. kanule kanani
+[00:13.00]Aa.. kalane kalisa
+[00:16.00]Nee.. valane bahusha ee varasa..
+
+[00:21.00]Naa.. yedhalo nalige
+[00:24.00]Oo.. prashne adiga
+[00:27.00]Ney.. vethike sneham nee manasa
+
+[00:32.00]ODDu cheraleni ee aley eyyyyyy....
+[00:37.00]Daatuthondi saagaralaneyy(saagaralaneyy)
+[00:42.00]Okka gunde inka chaladhey eyyyyyy....
+[00:47.00]Kammuthunte ee allarey eyyyyyy....
+
+[00:52.00]I... wanna fly wanna fly
+[00:55.00]Nee... sagamai sagamai
+[00:57.50]Naa... nijame edurai
+[01:00.00]Pilichinadha..
+
+
+[01:03.00]Love... feeling it inside
+[01:06.0]Ee... velugey varamai
+[01:09.00]Ye... kadhalu vinani
+[01:10.00]Bhaavamidha..
+
+
+[01:34.00]oohalake sarihaddhulu levani
+[01:36.00]Ee kshaname thelise..
+[01:39.00]Andukane choopula vanthena pai
+[01:42.00]Hrudayam parugideney..
+
+[01:44.50]Vennela kanna challani segatho
+[01:47.00]Feel this moment sway..
+[01:50.00]Nee vekuvalo vechani oohai
+[01:52.50]I’ll melt your heart away..
+
+[01:54.00]Oka praanam.. adhi needhavanee..
+[02:00.00]Girl your smile.. naa jagamavanee..
+
+[02:05.00]Naa.. kanule kanani
+[02:08.00]Aa.. kalane kalisa
+[02:11.00]Nee.. valane bahusha ee varasa..
+
+
+[02:16.00]I.. wanna fly wanna fly
+[02:19.00]Nee.. sagamai sagamai
+[02:21.00]Naa.. nijame edurai pilichinadha..
+
+
+[02:28.00]Baby lemme kiss you
+[02:30.00]Caress you
+[02:31.00]Hold you tight my baby boo
+[02:34.00]never let you
+[02:35.00]Go away from me
+[02:37.00]Coz i got issues
+[02:38.00]Well i miss you
+[02:39.00]But still i love the way
+[02:40.50]You looking in my eyes
+[02:41.50]And say
+[02:42.00]Those diamons and the buzz
+[02:43.00]Don’t matter to you bae
+[02:44.50]One love One life One wife
+[02:46.50]And thats it
+[02:47.50]True love from the heart
+[02:49.00]I trust you
+
+[02:51.00]Vethika nene nannu nee lokamlo
+[02:55.00]Nadicha needai prathi adugu neetho
+[03:00.00]Nee thalapu vidiche nimishamika
+[03:03.00]Nakedhurupadadhey
+[03:05.00]Arere chilipi madhike thelisenika
+[03:08.00]Naa kalala baruvey...
+
+[03:11.00]I.. wanna fly wanna fly
+[03:13.00]Nee.. sagamai sagamai
+[03:16.00]Naa.. nijame edurai pilichinadha..
+
+
+[03:21.00]Love.. feeling it inside
+[03:24.00]Ee.. velugey varamai
+[03:27.00]Ye.. kadhalu vinani bhaavamidha..
+
+[03:31.00]I wanna fly.
+[03:33.00]wanna fly...
+[03:34.00]Nee sagamai.
+[03:35.00]sagamai...
+[03:36.00]Naa nijame.
+[03:38.00]Edurai...
+[03:40.00]pilichinada...
+
+
+[03:42.00]Love.
+[03:43.00]feeling it inside..
+[03:45.00]Ee.
+[03:46.00]velugey varamai..
+[03:47.00]Ye.
+[03:49.00]kadhalu vinani bhaavamidha..`
+    },
+     {
+      title: "Arerey Manasa",
+      artist: "Sid Sriram",
+      file: "Arerey Manasa.mp3",
+      cover: "https://c-cdnet.cdn.smule.com/smule-gg-s-sf-bck1/arr/f5/ce/8616f858-dc4b-4522-b81a-66a6de51e098.jpg",
+      lyrics: `[00:00.00]
+     [00:17.00]Emannavo edatho thelusa
+[00:24.00]Premanukona manasa
+[00:32.00]Choodakamundhe venake nadiche
+[00:39.00]Thodokatundi kalisaa
+[00:46.00]Theliyade adagadam
+[00:53.00]Yedurai nuvve dorakatam
+[01:00.00]Maayano emito emo
+
+
+[01:06.50]Arerey manasaa
+[01:10.00]Idanthaa nizamaa
+[01:14.00]Ikapai maname
+[01:18.00]Sagamu sagamaa
+
+
+[01:22.00]Emannavo edatho thelusa
+[01:29.00]Premanukona manasa
+
+
+[01:52.00]Naa brathukuna yerojoo
+[01:56.00]Ye parichayamauthunna
+[02:00.00]Nenadiginade ledhe
+[02:04.00]Kadhanukoni pothunnaa
+
+[02:07.00]Innalluga naa venakunnadhi
+[02:11.00]Nuvvenani theliyadhule
+[02:15.00]Noorellaku ammaga maarina
+[02:18.50]Thode nuvve
+
+
+[02:22.00]Oorantha maharajaina
+[02:26.00]Nee ollo padipoyaakaa
+[02:29.00]Daasudanai poyaane
+
+[02:35.00]Arerey manasaa
+[02:38.00]Idanthaa nizamaa
+[02:42.00]Ikapai maname
+[02:46.00]Sagamu sagamaa
+
+
+[03:28.00]Nenadigina raagaalu
+[03:32.00]Nee pranayapu mounaalu
+[03:35.00]Nee kurula sameeraalu
+[03:39.00]Ne vethikina theeraalu
+
+[03:43.00]Innaalluga naa hrudayaniki
+[03:47.00]Edurainadi soonyamu le
+[03:51.00]Tholisaariga nee mukhamannadi
+[03:54.00]Naa vekuvale
+
+[03:58.00]Praanaale ara chethullo
+[04:01.00]Pettisthu naa oopiritho
+[04:05.00]Santhakame chesthunnaa
+
+
+[04:10.00]Arerey manasaa
+[04:14.00]Idanthaa nizamaa
+[04:18.00]Ikapai maname
+[04:22.00]Sagamu sagamaa
+[04:27.00]Arerey manasaa
+[04:30.00]Idanthaa nizamaa
+[04:33.00]Ikapai maname
+[04:37.00]Sagamu sagamaa
+[04:40.00]Arerey manasaa
+[04:44.00]Idanthaa nizamaa
+[04:48.00]Ikapai maname
+[04:51.00]Sagamu sagamaa`
+    },
+     {
+      title: "Reppalanindaa",
+      artist: "Chaitan Bharadwaj, Haricharan",
+      file: "Reppalanindaa.mp3",
+      cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUkzXkIx9Dbw0B3kgVomUPa5mIWGqtsfPjGg&s",
+      lyrics: `[00:00.00]
+[00:22.50]Reppalanindaa Kalaganakundaa 
+[00:26.00]Vennelavaana Anukokundaa
+[00:30.00]Pedavulanindaa Matalavaana
+[00:34.00]Alalu Egasenule
+[00:36.00]Ee Mattilona Poose Rojapoole
+[00:40.00]Raagalu Kurise Vedurule
+[00:44.00]Innallugaa Innellugaa
+[00:48.00]Naalo Levi Mahimale
+[00:52.00]Kodavalinindaa Kumkuma Poole
+[00:56.00]Kadavalanindaa Mandaaraale
+[01:00.00]Padavalanindaa Pattu Therale
+[01:03.00]Adugulanindaa Akasale Vaalenule
+[01:09.00]Pattu Guburu Daate Seethakoka Chilukalaa
+[01:12.00]Mitta Kalalu Daate Andamaina Nijamulaa
+[01:16.00]Patti Lagene Pattuteega Nannilaa
+[01:19.00]Emayyindo Naakemayyindo
+[01:23.00]Vaddantunnaa Nee Mudde Nannu 
+[01:27.00]Ramantunde Nanu Champesinde
+[01:30.00]Rai Rai Ranguluveyi 
+[01:32.00]Ennadu Choodanivai
+[01:34.00]Gundelo Bommalle Poose
+[01:39.00]Kodavalinindaa Kumkuma Poole
+[01:42.00]Kadavalanindaa Mandaaraale
+[01:46.00]Padavalanindaa Pattu Therale
+[01:50.00]Adugulanindaa Akasale Vaalenule
+
+[02:24.00]Chanti Papalaagaa Chindulevo Vesthunnaa
+[02:28.00]Ontaronni Ittaa Thuntaronni Chesthunna
+[02:32.00]Vendi Vennelai Endallone Kasthu Unnaa
+[02:35.00]Emayyindo Naakemayyindo
+[02:39.00]Roju Choose Naa Daarulu Kooda
+[02:42.00]Nene Evaro Mari Marichesaaye
+[02:46.00]Enno Ennenno Vinthalu Naalona
+[02:50.00]Ennadu Oohinchanivegaa
+[02:54.00]Kodavalinindaa Kumkuma Poole
+[02:58.00]Kadavalanindaa Mandaaraale
+[03:02.00]Padavalanindaa Pattu Therale
+[03:05.00]Adugulanindaa Akasale Vaalenule`
+    },
+    {
+      title: "Yemunnave Pilla",
+      artist: "Sid sriram",
+      file: "Yemunnave Pilla.mp3",
+      cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHaaWx2c9p1Ee56LveQHde1NsBM6fSB4kyeg&s",
+      lyrics: `[00:00.00]
+[00:26.50]Letha Legadhooda Pilla Thaage
+[00:29.00]Podhuguloni Paala Rangu Nuvve
+[00:32.00]Pachha Pairu Oni Ontikesukoni Emunnave
+[00:37.00]Ningi Saatukunna Sinuku Nuvve
+[00:39.50]Sootigaa Dhookesi Thaakinaave
+[00:42.50]Elisiponi Vaana Jallulaagaa Emunnave
+[00:47.50]Oo… Mallepoolannee Kullukunelaa
+[00:51.00]Emunnave Pilla… Emunnave
+[00:53.00]Theneteegalannee Suttumuttelaa
+[00:56.00]Emunnave Pilla… Emunnave
+
+[00:59.00]Sooreedu Soodu Poddhu
+[01:01.00]Dhaatinaa Ninnu Soosi Polede
+[01:04.00]Seekati Dhaatinaa Sendhurudu
+[01:07.00]Dhaage Laagaa Emunnave
+
+
+[01:09.00]Yemunnave Pilla Yemunnave
+[01:12.00]Andhamtho Bandhinchaave
+[01:15.00]Yemunnave Pilla Yemunnave
+[01:17.00]Soopultho Sampeshaave
+[01:20.00]Yemunnave Pilla Yemunnave
+[01:22.50]Maatallo Muncheshaave
+[01:25.00]Yemunnave Pilla Yemunnave
+[01:28.00]Navvultho Oopiri Aapesaave
+
+
+[01:53.00]Oo… Tholi Sinuku Seri
+[01:55.00]Ee Nela Gaali Guppinche
+[01:57.00]Matti Suvaasana Needhi
+[01:58.50]Potthillo Dhaagi Muddhullo Thele…
+[02:01.00]Pasipilla Buggallo Nunupe Needhi
+[02:04.00]Nuvvu Nadise Nadakallo…
+[02:06.00]Nadhi Pongula Hungundhi
+[02:09.00]Letha Nadumu Madathallo…
+[02:12.00]Ee Maayala Manasundhi
+[02:15.00]Vaale Rendu Kannullo…
+[02:17.00]Boledantha Siggu Dhaagundhi
+[02:20.00]Vaalujada Gutthullo… Ee
+[02:23.00]Bhoogalam Motthamundhi
+
+
+[02:26.50]Yemunnave Pilla Yemunnave
+[02:29.00]Andhamtho Bandhinchaave
+[02:32.00]Yemunnave Pilla Yemunnave
+[02:35.00]Soopultho Sampeshaave
+[02:37.00]Yemunnave Pilla Yemunnave
+[02:40.00]Maatallo Muncheshaave
+[02:43.00]Yemunnave Pilla Yemunnave
+[02:45.00]Navvultho Oopiri Aapesaave
+
+
+[03:10.00]Oo… Egireti Silaka Gorinka Vanka
+[03:13.00]Ora Kannesi Soosindhi Soodu
+[03:16.00]Tharigeti Sogasaa Kaadhemo Bahushaa
+[03:19.00]Ayinaa Navvesi Vachhindhi Nedu
+[03:21.00]Kaarumabbu Seekatlo…
+[03:24.00]nee vennela navvundi
+[03:27.00]Kaaru byta Vakitlo
+
+[03:29.00]Aa Sukkala Muggundhi
+[03:32.00]Janta Ayye Dhaarullo
+[03:34.00]Nee Siggula Addundhi
+[03:37.00]Venta Vachhe Adugullo
+[03:40.00]Janmajanmala Thodundhi
+
+[03:44.00]Yemunnave Pilla Yemunnave
+[03:46.50]Andhamtho Bandhinchaave
+[03:49.00]Yemunnave Pilla Yemunnave
+[03:52.00]Soopultho Sampeshaave
+[03:55.00]Yemunnave Pilla Yemunnave
+[03:57.00]Maatallo Muncheshaave
+[04:00.00]Yemunnave Pilla Yemunnave
+[04:03.00]Navvultho Oopiri Aapesaave`
     }
   ],
  
    "SAD": [
-    {
-      title: "Blinding Lights",
-      artist: "The Weeknd",
-      file: "songs/blinding.mp3",
-      cover: "https://i.imgur.com/2f3ddYm.jpg",
-      lyrics: `[00:00.00]
-[00:05.00]I been tryna call
-[00:10.00]I been on my own for long enough`
-    },
+   ,
     {
       title: "Shape of You",
       artist: "Ed Sheeran",
@@ -194,7 +584,7 @@ const playlists = {
       {
       title: "Vikram Title song",
       artist: "Anirudh",
-      file: "vikram.mp3",
+      file: "songs/vikram.mp3",
       cover: "https://wallpaperaccess.com/full/8412315.jpg",
       lyrics: `[00:00.000]
 [00:20.50]Kaalame kampinchina Marala vachchenu nayakudu
