@@ -564,12 +564,62 @@ const playlists = {
 [03:57.00]Maatallo Muncheshaave
 [04:00.00]Yemunnave Pilla Yemunnave
 [04:03.00]Navvultho Oopiri Aapesaave`
-    }
-  ],
+    },
+       {
+      title: "Arere Yekkada",
+      artist: "Naresh Iyer, Manisha Eerabhathini",
+      file: "Arere Yekkada.mp3",
+      cover: "https://tse2.mm.bing.net/th?id=OIP.B03UGVJ3WuReI_G6G6y5gQAAAA&pid=Api&P=0&h=180",
+      lyrics: `[00:00.00]
+[00:23.00]Arere yekkada yekkada
+[00:25.00]Yekkada yekkda yekkda na pranam
+[00:28.00]Ee prasnaku nuvvele samaadhanam
+[00:33.00]Arrere yeppudu yeppudu
+[00:34.00]Yeppudu yeppudu neetho na payanam
+[00:37.00]Ee prasnaku badhulega ee nimisham
+[00:42.00]Matale mariche santosham
+[00:47.00]Paatalle marindhi prathi kshanam
+
+[00:52.00]Arere yekada yekada
+[00:53.00]Yekkada yekkda yekkda na pranam
+[00:56.00]Ee prasnaku nuvvele samaadhanam
+[01:01.00]Arrere yeppudu yeppudu
+[01:02.00]Yeppudu yepudu neetho na payanam
+[01:06.00]Ee prasnaku badhulega ee nimisham
+
+[01:39.00]Ningilo aa chukkalani
+[01:43.00]Okatiga kalpithe mana bomma kadha
+[01:48.00]Oh dharilo ee puvvulani
+[01:53.00]Jantaga vesina mana adugulega
+[01:57.00]Mabullo oo.. Chinukulu manamanta
+[02:02.00]Maname chereti ye chotedhaina
+[02:05.00]Ayipodha pudhota
+
+
  
-   "SAD": [
-   ,
-    {
+[02:07.00]Arere yekkada yekkada
+[02:09.00]Yekkada yekada yekada na pranam
+[02:12.00]Ee prasnaku nuvvele samadhanam
+[02:16.00]Arrere yeppudu yeppudu
+[02:18.00]Yeppudu yeppudu neetho na payanam
+[02:21.00]Ee prasnaku badhulega ee nimisham
+
+[02:47.00]O kallatho o chupu muddhe
+[02:52.00]Ivadam nerputha nerchukova
+[02:56.00]Pedhavitho pedhavulako mudhe
+[03:01.00]Adagadam theliyani alavatu marchava
+[03:06.00]Kaatukane dhidhe velautha
+[03:10.00]Aa vele patti ye vela
+[03:13.00]Nee venta adugestha
+
+[03:15.00]Yekkada yekkada yekkada yekkada
+[03:17.00]Yekkda na pranam
+[03:2o.00]Ee prasnaku nuvele samadhanam
+[03:24.00]Arrere yeppudu yeppudu
+[03:27.00]Yepudu yepudu neetho na payanam
+[03:29.00]Ee prasnaku badhulega ee nimisham`
+    },
+     {
       title: "Shape of You",
       artist: "Ed Sheeran",
       file: "songs/shape.mp3",
@@ -579,12 +629,157 @@ const playlists = {
 [00:15.00]So the bar is where I go`
     }
   ],
+ 
+      "SAD": [
+   
+    {
+      title: "Agar Tum Saath Ho",
+      artist: "Arijit Singh",
+      file: "Agar Tum Saath Ho.mp3",
+      cover: "https://tse1.mm.bing.net/th?id=OIP.lHGi66LdgMMFUSHng0D1bAHaHa&pid=Api&P=0&h=180",
+      lyrics: `[00:00.00]
+[00:25.00]Pal bhar thahar jaao
+[00:28.00]Dil ye sambhal jaaye
+[00:32.00]Kaise tumhe roka karun
+[00:40.00]Meri taraf aata har gham phisal jaaye
+[00:48.00]Aankhon mein tum ko bharun
+[00:55.00]Bin bole baatein tumse karun
+[01:03.00]'gar tum saath ho..
+[01:11.00]Agar tum saath ho
+[01:15.00]........
+[01:31.00]Behti rehti..
+[01:39.00]Nahar nadiya si teri duniya mein
+[01:47.00]Meri duniya hai teri chaahaton mein
+[01:56.00]Main dhal jaati hoon teri aadaton mein
+[02:02.00]'gar tum saath ho
+
+[02:06.00]Teri nazron mein hai tere sapne
+[02:10.00]Tere sapno mein hai naraazi
+[02:13.00]Mujhe lagta hai ke baatein dil ki
+[02:17.00]Hoti lafzon ki dhokebaazi
+[02:21.00]Tum saath ho ya na ho kya fark hai
+[02:29.00]Bedard thi zindagi bedard hai
+[02:36.00]Agar tum saath ho
+[02:42.00]Agar tum saath ho
+
+[03:22.00]Palkein jhapakte hi din ye nikal jaaye
+[03:30.00]Bethi bethi bhaagi phirun
+[03:38.00]Meri taraf aata har gham phisal jaaye
+[03:45.00]Aankhon mein tum ko bharun
+[03:53.00]Bin bole baatein tumse karun
+[04:00.00]'gar tum saath ho
+[04:08.00]Agar tum saath ho
+
+[04:13.00]Teri nazron mein hai tere sapne
+[04:17.00]Tere sapno mein hai naraazi
+[04:20.00]Mujhe lagta hai ke baatein dil ki
+[04:24.00]Hoti lafzon ki dhokebaazi
+[04:28.00]Tum saath ho ya na ho kya fark hai
+[04:36.00]Bedard thi zindagi bedard hai
+
+[04:43.00]Agar tum saath ho
+[04:49.00]Dil ye sambhal jaaye
+[04:52.00](Agar tum saath ho)
+[04:56.00]Har gham phisal jaaye
+[04:59.00](Agar tum saath ho)
+[05:03.00]Din ye nikal jaaye
+[05:07.00](Agar tum saath ho)
+[05:13.00]Har gham phisal jaaye`
+    },
+      {
+      title: "Urime Manase",
+      artist: "LV Revanth, Sanjith Hegde",
+      file: "Urime Manase.mp3",
+      cover: "https://i.scdn.co/image/ab67616d0000b2737a84f8e1ac919d01286983c6",
+      lyrics: `[00:00.00]
+[00:49.50]Urime manase
+[00:56.50]Uppenai vunna gundene
+[00:58.50]Nedu nippule chimmanee
+[01:03.00]E needalaa nuvvu lenide
+[01:06.00]Nenu nenugaa lenanee
+[01:09.50]Vunna chota vundaneeyade
+[01:14.00]Urime manase
+[01:17.50]Reppanaina veyyaniyyade
+[01:21.00]Tarime manase
+[01:25.00]Vetikaa nenai aakaasam
+[01:28.00]Migilaa swaasai nee kosam
+[01:31.50]Yepudo needai naa lokam
+[01:35.00]Yedure choose ekaantam
+
+[01:40.00]Gnaapakaale gucchutunte chinni gundene
+[01:46.50]Ninnu taake haayinicche kotta aayuve
+
+[01:53.00]Yuddham kosam nuvve siddham
+[01:56.00]Neelo nene aayudham
+[02:00.00]Neeve dhyaanam neeve gamyam
+[02:03.00]Naalo lede samsayam
+[02:06.00]Chal chal chal
+[02:09.00]toofanu vegamai chalo chalo
+[02:14.00]Ghal ghal ghal
+[02:17.00]Aa gelupu chappude ee daarilo
+[02:20.00]Parugu teese praayamaa
+[02:22.00]Oopirai naa prema teeram cherave
+[02:28.00]Prapanchame vinettugaa ee prema gaatha chaatave
+
+[02:49.00]Vunna chota vundaneeyade
+[02:52.00]Urime manase
+[02:56.00]Reppanaina veyyaniyyade
+[02:59.00]Tarime manase
+[03:03.00]Vetikaa nenai aakaasam
+[03:06.00]Migilaa swaasai nee kosam
+[03:10.00]Yepudo needai naa lokam
+[03:13.00]Yedure choose ekaantam
+
+[03:45.00]Vunna chota vundaneeyade
+[03:48.00]Urime manase
+[03:52.00]Reppanaina veyyaniyyade
+[03:55.00]Tarime manase
+[03:59.00]Vetikaa nenai aakaasam
+[04:02.00]Migilaa swaasai nee kosam
+[04:06.00]Yepudo needai naa lokam
+[04:09.00]Yedure choose ekaantam`
+    },
+    {
+      title: "Adiga Adiga",
+      artist: "Sid Sriram",
+      file: "Adiga Adiga.mp3",
+      cover: "https://tse2.mm.bing.net/th?id=OIP.WUGmHCWpjslQQtLPSYmCUgAAAA&pid=Api&P=0&h=180",
+      lyrics: `[00:00.00]
+[00:34.00]Adiga adiga yedhalo layanadiga
+[00:40.00]Kadhile kshanama cheli yedhani
+[00:45.00]Nanne maricha thana perune thalicha
+[00:51.00]Madheene adiga thana oosedhani
+
+[00:56.00]Nuvve leni nannu oohinchalenu
+[01:02.00]Na prathi oohalonu vethikithe manakathe
+[01:07.00]Neelone unna ninnu kori unna
+[01:13.00]Nizamai nadhicha jathaga
+
+[01:52.00]Gundelothullo undhi nuvvega
+[01:57.00]Na sagame na jagame nuvvega
+[02:03.00]Nee snehame nannu nadipe swaram
+[02:08.00]Ninu cheraga aagiponi payanam
+[02:14.00]Alupe leni gamanam
+
+
+ 
+[02:20.00]Adiga adiga yedhalo layanadiga
+[02:25.00]Kadhile kshanama cheli yedhani
+[02:31.00]Nanne maricha thana perune thalicha
+[02:36.00]Madheene adiga thana oosedhani
+
+[02:42.00]Nuvve leni nannu oohinchalenu
+[02:47.00]Na prathi oohalonu vethikithe manakathe
+[02:53.00]Neelone unna ninu kori unna
+[02:58.00]Nizamai nadhicha jathaga`
+    }
+  ],
 
       "BASS": [
       {
       title: "Vikram Title song",
       artist: "Anirudh",
-      file: "songs/vikram.mp3",
+      file: "vikram.mp3",
       cover: "https://wallpaperaccess.com/full/8412315.jpg",
       lyrics: `[00:00.000]
 [00:20.50]Kaalame kampinchina Marala vachchenu nayakudu
