@@ -1,5 +1,5 @@
-const playlists = {
-  "LOVE": [
+// Your full playlist object (already present in your version)
+const playlists = {  "LOVE": [
     {
        
     
@@ -803,19 +803,108 @@ const playlists = {
 [03:09.50]Vikram.. vikram Vikram ..vikram.. Vikram..vikram.. Vikram..vikram..`
     },
     {
-      title: "Shape of You",
-      artist: "Ed Sheeran",
-      file: "songs/shape.mp3",
-      cover: "https://i.imgur.com/UpwQ3zE.jpg",
+      title: "Aarambhame Le",
+      artist: "anirud",
+      file: "Aarambhame Le.mp3",
+      cover: "https://tse4.mm.bing.net/th?id=OIP.cCm__XF-34vXFEmvkDqKTAHaHY&pid=Api&P=0&h=180",
       lyrics: `[00:00.00]
-[00:08.00]The club isn't the best place to find a lover
-[00:15.00]So the bar is where I go`
+[00:13.94]JAYAM ALAA SAAGETI JEEVITHAANA
+[00:25.02]EMAINDILAA KSHANAMLO OTAMENA
+[00:36.18]AARAMBHAME LE (MUSIC…..)
+[00:45.70](MODALE…SAMARAM KADANAM PAYANAM)
+[01:07.51]MODALE GELICHENDUKU KAADIDI SAMARAM
+[01:11.48]BRATHIKENDUKU JARIGE KADANAM
+[01:14.04]KADILENDUKU MODALEE PAYANAM
+[01:16.76]SARIKOTHAGA GATHAMUKU GAMANAM
+[01:19.60]VELUGUENDUKU KAADE JVALANAM
+[01:21.97]CHEEKATI THAREMENDUKU CHALANAM
+[01:24.95]GELICHENDUKU KADIDI SAMARAM
+[01:27.70]BRATHIKENDUKU JARIGE KADANAM
+[01:31.70]AARAMBHAME……LE`
+    },
+     {
+      title: "Krishna Trance",
+      artist: "anirud",
+      file: "Krishna Trance.mp3",
+      cover: "https://upload.wikimedia.org/wikipedia/en/7/7e/Karthikeya_2_Poster.jpeg",
+      lyrics: `[00:00.00]
+[00:00.00]Hey kesava Hey maadhava
+[00:01.84]Hey govinda Raksha raksha
+[00:04.21]Paahi paahi Paramaananda
+
+[00:08.88]Hey kesava Hey maadhava
+[00:10.44]Hey govinda Raksha raksha
+[00:13.06]Paahi paahi Paramaananda
+
+[00:15.50]Hey kesava Hey maadhava
+[00:17.56]Hey govinda Raksha raksha
+[00:19.89]Paahi paahi Paramaananda
+
+[00:30.00]Phani gana phani
+[00:31.00]Poothkarami bhayada
+[00:31.97]Mrutyu dwaaram
+[00:32.89]Chalachhilitha
+[00:34.00]Tava charanam
+[00:35.00]Daaruna bhava
+[00:36.00]Taranam
+
+[00:43.00]Sankalpa badhhamee hrudayam
+[00:44.50]Ledhu marana bhayam
+[00:47.00]Ledhu marana bhayam
+[00:48.50]Ledhu marana bhayam
+
+[00:50.00]Vaanchithame lokahitam
+[00:52.00]Idi soonrutha vratham
+[00:54.00]Idi soonrutha vratham
+[00:56.00]Idi soonrutha vratham
+
+[00:57.00]Vaanchithame lokahitam
+[0:59.00]Idi soonrutha vratham
+[01:01.00]Idi soonrutha vratham
+[01:03.00]Idi soonrutha vratham
+
+[01:04.00]Hey kesava Hey maadhava
+[01:06.00]Hey govinda Raksha raksha
+[01:08.00]Paahi paahi Paramaananda
+
+[01:11.00]Hey kesava Hey maadhava
+[01:12.00]Hey govinda Raksha raksha
+[01:15.00]Paahi paahi Paramaananda
+
+[01:22.00]Hey kesava Hey maadhava
+[01:23.00]Hey govinda Raksha raksha
+[01:26.00]Paahi paahi Paramaananda
+
+[01:49.00]Prakruthi rakshanam
+[01:50.90]Divya kankanam
+[01:52.70]Kutila bhanjanam
+[01:54.00]Krishna kankanam
+
+[01:56.00]Hey kesava Hey maadhava
+[01:58.00]Hey govinda Raksha raksha
+[02:00.00]Paahi paahi Paramaananda
+
+[02:03.00]Hey kesava Hey maadhava
+[02:05.00]Hey govinda Raksha raksha
+[02:07.00]Paahi paahi Paramaananda
+
+[02:17.00]Hey kesava Hey maadhava
+[02:19.00]Hey kesava Hey maadhava
+[02:21.00]Hey kesava Hey maadhava
+[02:22.00]Paramaananda
+
+[02:24.00]Hey kesava Hey maadhava
+[02:26.00]Hey kesava Hey maadhava
+[02:27.00]Hey kesava Hey maadhava
+[02:29.00]Hey kesava Hey maadhava
+`
     }
   ]
 
 
-};
+}; // ← Keep your full playlist JSON here (as in your file)
 
+// DOM elements
 const audio = document.getElementById("audioPlayer");
 const playBtn = document.getElementById("playPauseBtn");
 const prevBtn = document.getElementById("prevBtn");
@@ -829,6 +918,19 @@ const currentTime = document.getElementById("currentTime");
 const duration = document.getElementById("duration");
 const playlistEl = document.getElementById("playlist");
 const playlistSelect = document.getElementById("playlistSelect");
+const searchBar = document.getElementById("searchBar");
+
+// Show playlist when clicking on search bar
+searchBar.addEventListener("focus", () => {
+  playlistEl.classList.add("show");
+});
+
+// Hide playlist when clicking away (with small delay so clicks register)
+searchBar.addEventListener("blur", () => {
+  setTimeout(() => {
+    playlistEl.classList.remove("show");
+  }, 200);
+});
 
 let currentPlaylist = [];
 let currentPlaylistName = "";
@@ -869,6 +971,7 @@ function loadSong(i) {
   cover.src = song.cover;
   title.textContent = song.title;
   artist.textContent = song.artist;
+
   lyricsLines = parseLyrics(song.lyrics);
   renderLyrics();
   progressBar.value = 0;
@@ -876,6 +979,8 @@ function loadSong(i) {
   duration.textContent = "0:00";
   updatePlaylistUI();
 }
+
+
 
 function renderLyrics() {
   lyricsDisplay.innerHTML = '';
@@ -971,6 +1076,48 @@ function updatePlaylistUI() {
   });
 }
 
-// Initialize everything
+// 🔍 Search bar filtering support
+document.getElementById("searchBar").addEventListener("input", function (e) {
+  const query = e.target.value.toLowerCase();
+
+  if (query.trim() === "") {
+    updatePlaylistUI(); // restore full list if search is cleared
+    return;
+  }
+
+  const filtered = currentPlaylist.filter(song =>
+    song.title.toLowerCase().includes(query) ||
+    song.artist.toLowerCase().includes(query)
+  );
+  updateFilteredPlaylistUI(filtered);
+});
+
+function updateFilteredPlaylistUI(filtered) {
+  playlistEl.innerHTML = '';
+  filtered.forEach(song => {
+    const li = document.createElement('li');
+    li.textContent = `${song.title} – ${song.artist}`;
+    li.onclick = () => {
+      const realIndex = currentPlaylist.findIndex(s =>
+        s.title === song.title && s.artist === song.artist
+      );
+      if (realIndex !== -1) {
+        currentIndex = realIndex;
+        loadSong(realIndex);
+        playSong();
+      }
+    };
+    playlistEl.appendChild(li);
+  });
+}
+function loadPlaylist(name) {
+  currentPlaylistName = name;
+  currentPlaylist = playlists[name];
+  currentIndex = 0;
+  loadSong(currentIndex);
+  updatePlaylistUI(); // ✅ this must be called
+}
+
+// 🚀 Initialize
 loadPlaylists();
 loadPlaylist(Object.keys(playlists)[0]);
