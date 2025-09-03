@@ -53,12 +53,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .header h1 {
   font-size: 1.5rem;
   color: var(--green);
+}
+
+#searchBar {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 12px;
+  background: #2b2b2b;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 #playlistSelect {
@@ -155,14 +165,6 @@ body {
   border-radius: 6px;
 }
 
-.playlist {
-  list-style: none;
-  padding: 0;
-  margin-top: 10px;
-  max-height: 120px;
-  overflow-y: auto;
-}
-
 .playlist li {
   padding: 8px 10px;
   border-radius: 6px;
@@ -179,7 +181,13 @@ body {
   font-weight: bold;
   color: white;
 }
+#playlist {
+  display: none;
+}
 
+#playlist.show {
+  display: block;
+}
 .waveform-bars {
   display: flex;
   justify-content: center;
@@ -207,3 +215,4 @@ body {
   0%, 100% { transform: scaleY(0.4); }
   50% { transform: scaleY(1.4); }
 }
+
