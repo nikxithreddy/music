@@ -8,12 +8,17 @@
 </head>
 <body>
   <div class="background"></div>
-
   <div class="player-container">
     <header class="header">
       <h1>🎵 NR Music Player</h1>
+          
       <select id="playlistSelect"></select>
     </header>
+
+    <div>
+      <input type="text" id="searchBar" placeholder="Search songs..." />
+       <ul id="playlist" class="playlist"></ul>
+    </div>
 
     <div class="now-playing">
       <img id="coverImage" src="" alt="Album Art" />
@@ -39,9 +44,11 @@
       <span id="duration">0:00</span>
     </div>
 
-    <div class="lyrics" id="lyricsDisplay"></div>
+   
 
-    <ul id="playlist" class="playlist"></ul>
+    <div class="lyrics" id="lyricsDisplay"></div>
+   
+   
 
     <audio id="audioPlayer"></audio>
   </div>
