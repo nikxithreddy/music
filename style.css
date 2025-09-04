@@ -157,7 +157,7 @@ body {
 }
 
 .lyrics {
-  max-height: 200px;
+  max-height: 400px;
   overflow-y: auto;
   margin-top: 20px;
   padding: 10px;
@@ -228,4 +228,5 @@ body {
   0%, 100% { transform: scaleY(0.4); }
   50% { transform: scaleY(1.4); }
 }
+
 
