@@ -1,0 +1,14 @@
+{
+  "name": "nr-music-player-backend",
+  "version": "1.0.0",
+  "description": "Simple Express backend for NR Music Player using users.json",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
