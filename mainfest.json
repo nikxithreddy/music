@@ -1,0 +1,14 @@
+{
+  "name": "NR Music Player",
+  "short_name": "NR Music",
+  "description": "A sleek music player on the web.",
+  "start_url": "/music/index.html",
+  "scope": "/music/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "/music/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/music/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
