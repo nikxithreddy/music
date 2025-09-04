@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Login - NR Music Player</title>
   <link rel="stylesheet" href="style1.css" />
+  <link rel="manifest" href="/music/manifest.json">
+<meta name="theme-color" content="#000000">
+<link rel="apple-touch-icon" href="/music/icons/icon-192.png">
+
 </head>
+  <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/music/sw.js");
+}
+</script>
+
 <body class="auth-body">
   <div class="background"></div>
 
@@ -27,3 +37,4 @@
   <script src="auth.js"></script>
 </body>
 </html>
+
