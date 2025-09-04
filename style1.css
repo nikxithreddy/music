@@ -10,6 +10,10 @@ body.auth-body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
@@ -27,8 +31,10 @@ html, body {
 }
 
 .auth-container {
-  max-width: 380px;
-  width: 90%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: linear-gradient(135deg, rgba(0, 30, 80, 0.95), rgba(90, 0, 120, 0.95));
   padding: 25px;
   border-radius: 16px;

@@ -27,7 +27,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   position: relative;
 }
@@ -36,7 +39,7 @@ body {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: linear-gradient(135deg, #0f0f0f, #1db95410, #0f0f0f);
-  background-size: 200% 200%;
+  
   animation: bgShift 15s infinite linear;
   z-index: -1;
 }
@@ -49,7 +52,9 @@ body {
 
 .player-container {
   width: 100%;
-  max-width: 420px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: rgba(25, 25, 25, 0.9);
   padding: 20px;
   border-radius: 20px;
