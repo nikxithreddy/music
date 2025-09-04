@@ -2,7 +2,7 @@
 // Use this INSTEAD of your current auth.js when running with the backend.
 // Either rename this file to auth.js or update your HTML to include this one.
 
-const API = "http://localhost:3000";
+const API = "https://music-y9ex.onrender.com";
 
 // Register
 const regForm = document.getElementById("registerForm");
